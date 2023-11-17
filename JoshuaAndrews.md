@@ -2,6 +2,7 @@
 
 The CPE I found in my personal code is as follows.
 
+
 `cpe:2.3:a:JoshuaAndrews:Trie.cpp:1.0.0:1:en-us:GCC-6.3.0:*:*:*:`
 
   The CPE that I generated from my found personal CVE refers to version 2.3 of the Common Platform Enumerations. The CPE shows this was an application that was made by me and goes by the product name of Trie.cpp. Additionally, this was the first "released" version and edition of the application, made for american english usage. Finally, the software this was made on the latest version of c++. This CVE was found in an alphabet trie I made recently. Each node in the Trie has a vector of pointers that refer to the next node in the trie. Early versions of this application were able to write past the array on certain endge case conditions which cased a lot of data from the Trie and potential security risks in the actual application.
