@@ -8,5 +8,7 @@ The CPE I found in my personal code is as follows.
   This CVE is a perfect example of my chosen CWE which "CWE-787: Out-of-bounds Write". The application was able to write data past the alloted buffer of the pointer vector that is being written to. An obvious corruption of expected data is caused by the vector not string the data being written as well as storage used elsewhere on the system being overwritten by a value that is not expected or handled. Some other examples of this CWE include,
   
 `CVE-2021-28664: https://www.cve.org/CVERecord?id=CVE-2021-28664`
+
 `CVE-2020-0041: https://www.cve.org/CVERecord?id=CVE-2020-0041`
+
 `CVE-2021-21220: https://www.cve.org/CVERecord?id=CVE-2021-21220`  
