@@ -17,3 +17,5 @@ The CPE I found in my personal code is as follows.
 
 
 `CVE-2021-21220: https://www.cve.org/CVERecord?id=CVE-2021-21220`  
+
+  Personally, I feel that I implimnt this CWE a large amount of the time before I catch the issue. I believe that this is one of the easiest CWEs to put into a product during development due to lower level languages allowing for out of bounds writes for most data types. I was able to fix this issue by creating a max value macro that was to be used whenever the vector was being written to. This way there would be no possibility of writting past the max value as all itterations would be based off of said macro.
